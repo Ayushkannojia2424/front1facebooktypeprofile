@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">My Profile</div>
+
+<input type="checkbox" id="editToggle">
+
+<div class="container">
+
+    <!-- LEFT COLUMN -->
+    <div class="left">
+        <img src="https://via.placeholder.com/150">
+
+        <!-- VIEW MODE -->
+        <div class="view">
+            <h3>Ayush Kannojia</h3>
+            <p>Gmail: Ayush@gmail.com</p>
+            <p>Location: India</p>
+
+            <label for="editToggle" class="btn">Edit Profile</label>
+        </div>
+
+        <!-- EDIT MODE -->
+        <div class="edit">
+            <input type="text" placeholder="New Name">
+            <input type="email" placeholder="New Email">
+            <input type="text" placeholder="New Location">
+
+            <label for="editToggle" class="btn save">Save</label>
+        </div>
+    </div>
+
+    <!-- MIDDLE COLUMN -->
+    <div class="middle">
+        <h3>About Me</h3>
+        <p>
+            I am learning web development and building frontend projects
+            using HTML and CSS.
+        </p>
+
+        <div class="post">
+            Learning CSS tricks today 😄
+        </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right">
+        <h3>Friends</h3>
+        <ul>
+            <li>Rahul</li>
+            <li>Ankit</li>
+            <li>Neha</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
